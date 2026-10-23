@@ -2,7 +2,7 @@
 name: HalloweenEvents
 version: 1.0.0
 main: net.surrealsmp.halloweenevents.HalloweenEvents
-api-version: '1.21'
+api-version: '26.2'
 description: Configurable Halloween events for SurRealSMP
 author: SurRealSMP
 
