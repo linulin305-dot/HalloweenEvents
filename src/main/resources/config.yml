@@ -1,0 +1,35 @@
+
+settings:
+  prefix: "&6&lHalloween &8» "
+  enabled-on-startup: false
+
+event:
+  duration-minutes: 30
+  world: ""
+  force-night: true
+  announce-interval-seconds: 300
+
+  bossbar:
+    enabled: true
+    title: "&6&lHALLOWEEN EVENT &8» &fSurvive the night!"
+    color: PURPLE
+    style: SEGMENTED_10
+
+  effects:
+    particles: true
+    spooky-sounds: true
+    lightning: false
+    mob-buffs: true
+
+  mobs:
+    enabled: true
+    spawn-interval-seconds: 20
+    max-extra-mobs-per-wave: 5
+
+messages:
+  event-started: "&6Halloween event started!"
+  event-stopped: "&cHalloween event stopped."
+  event-already-running: "&eA Halloween event is already running."
+  event-not-running: "&cNo Halloween event is currently running."
+  no-permission: "&cYou don't have permission to do that."
+  reloaded: "&aHalloweenEvents configuration reloaded."
